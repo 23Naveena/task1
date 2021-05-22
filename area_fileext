@@ -1,0 +1,11 @@
+CODE FOR FINDING AREA 
+from math import pi
+radius=float(input("Input the radius of the circle : "))
+Area=str(pi*radius**2)
+print("The area of the circle with radius " + str(radius) + " is: " + Area)
+
+CODE FOR PRINTING EXTENSION OF A FILE 
+f=input()
+ext=f.split(".")[-1]
+d={"py": "Python", "txt":"Text file"}
+print(d[ext])
